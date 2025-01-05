@@ -13,7 +13,7 @@
 > Eureka server has already been set up in the previous step (check ***Service Discovery with Eureka*** note).
 > All 3 services (customer, fraud, notification) should be registered as eureka clients.
 
-- The following annotation needs to be added to the global dependency file of the project
+- The following dependency needs to be added to the global dependency file of the project
 ```xml
 <dependency>  
 	<groupId>org.springframework.cloud</groupId>  
